@@ -1211,11 +1211,3 @@ print("The max accurcy on the test set is",np.max(BigNetHistory.history["val_acc
 # We could also try an approach that utilies multiple models. We can train models to predict the features for a fight, such as a model that predicts
 # the number of takedowns the red fighter will land. These predicted features could then be used to predict the outcome of the fight using a seperate model trained
 # on the real values of previous fights. 
-
-# %%
-from tqdm import tqdm
-
-for i in tqdm(range(5000000)):
-    pass
-
-# %%
