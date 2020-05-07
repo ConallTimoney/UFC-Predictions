@@ -25,6 +25,8 @@ from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 
+from IPython.display import display
+
 
 pd.set_option("display.max_columns", 100)
 pd.set_option("display.max_rows", 100)
